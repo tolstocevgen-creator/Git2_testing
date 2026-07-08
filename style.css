@@ -4,5 +4,27 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
 
+}
 
+.header{
+    background-:linear-gradient(
+    90deg, blue, purple);
+    padding:14px 0;
+
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu{
+    list-style-type: none;
+    display: flex;
+    column-gap:12px;
+}
